@@ -167,6 +167,7 @@ int yed_plugin_boot(yed_plugin *self) {
             KWD("uintptr");
             KWD("string");
             KWD("bool");
+            KWD("error");
         APOP();
 
         APUSH("&code-constant");
